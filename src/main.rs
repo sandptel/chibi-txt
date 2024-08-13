@@ -16,6 +16,10 @@ use std::process::exit;
 // number of arguments expected
 const ARG_COUNT:usize = 5;
 
+#[allow(unused_imports)]
+#[allow(dead_code)]
+#[derive(Debug)]
+
 fn print_usage(){
     println!("usage: cargo run -- -e [input_file.txt] [output_bin_file_name.bin] [key_file_name.txt]");
     println!("or");
